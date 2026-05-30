@@ -5,3 +5,4 @@ min-var-length = 2
 max-var-length = 40
 allowed-single-letters = i,j,x,y
 enforce-snake-case = True
+prohibited_modules = math,re
