@@ -40,7 +40,7 @@ class Minerva:
     """
 
     name = "minerva"
-    version = "1.6.0"
+    version = "2.1.0"
     directory = "settings"
     filename = "plugin.json"
 

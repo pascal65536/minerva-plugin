@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minerva-plugin"
+version = "2.1.0"
+description = "Minerva - Flake8 plugin for Python code quality checks (SAST)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "pascal65536", email = "pascal65536@gmail.com"}
+]
+keywords = ["flake8", "linting", "code-quality", "static-analysis", "sast"]
+classifiers = [
+    "Framework :: Flake8",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = [
+    "flake8>=3.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/pascal65536/minerva-plugin"
+Issues = "https://github.com/pascal65536/minerva-plugin/issues"
+
+[project.entry-points."flake8.extension"]
+MN = "minerva_plugin:Minerva"
