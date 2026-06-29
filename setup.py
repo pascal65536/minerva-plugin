@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="minerva-plugin",
-    version="1.0.0",
+    version="1.6.0",
     description="Minerva - Flake8 plugin",
     author="pascal65536",
     author_email="pascal65536@gmail.com",
