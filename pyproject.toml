@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "minerva-plugin"
-version = "2.1.0"
+version = "2.1.1"
 description = "Minerva - Flake8 plugin for Python code quality checks (SAST)"
 readme = "README.md"
 requires-python = ">=3.8"

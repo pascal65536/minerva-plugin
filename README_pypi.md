@@ -16,7 +16,7 @@ flake8 your_code.py
 
 ```bash
 flake8 --version
-# В выводе должна быть строка: MN: 2.1.0
+# В выводе должна быть строка: MN: 2.1.1
 ```
 
 ---
@@ -26,9 +26,9 @@ flake8 --version
 Когда добавите новые правила или исправите баги:
 
 1. **Обновите версию в трёх местах**:
-   - `setup.py`: `version="2.2.0"`
-   - `pyproject.toml`: `version = "2.2.0"`
-   - `minerva_plugin/__init__.py`: `version = "2.2.0"`
+   - `setup.py`: `version="2.1.2"`
+   - `pyproject.toml`: `version = "2.1.2"`
+   - `minerva_plugin/__init__.py`: `version = "2.1.2"`
 
 2. **Пересоберите пакет**:
    ```bash

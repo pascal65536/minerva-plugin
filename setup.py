@@ -9,7 +9,7 @@ if readme_path.exists():
 
 setup(
     name="minerva-plugin",
-    version="2.1.0",
+    version="2.1.1",
     description="Minerva - Flake8 plugin for Python code quality checks (SAST)",
     long_description=long_description,
     long_description_content_type="text/markdown",
